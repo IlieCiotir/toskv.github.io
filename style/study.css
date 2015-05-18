@@ -6,11 +6,7 @@ body {
 }
 
 
-.todo {
-	display: list-item;
-}
-
-.done {
+.task {
 	display: list-item;
 }
 
