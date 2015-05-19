@@ -23,7 +23,18 @@ body > main {
 	flex-flow: row wrap;
 }
 
-a:visited {
+body > footer {
+	width: 100%
+
+}
+
+body > footer > div {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;	
+}
+
+a, a:visited {
 	color :black;
 }
 
@@ -33,6 +44,7 @@ main > section {
 	box-shadow: 2px 2px rgb(241, 241,241);
 	padding: 20px 10px;	
 	margin:10px;
+	width: 20%;
 }
 
 main > section > header {
@@ -61,5 +73,26 @@ main >section > ul > li {
 }
 
 header > h1 {
-	width:30%;
+	width:50%;
 }
+
+@media (max-width: 1284px)  {
+	header > h1 {
+		width:100%;
+	}
+
+  	main > section {
+  		width: 45%;
+  	}
+}
+
+@media (max-width: 1000px)  {
+	header > h1 {
+		width:100%;
+	}
+
+  	main > section {
+  		width: 100%;
+  	}
+}
+
