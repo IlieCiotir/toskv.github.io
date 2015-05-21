@@ -62,7 +62,7 @@ main > section > header > h3 {
 	float: right;
 }
 
-main > section > ul {
+ul {
 	list-style-type: none;
 }
 
